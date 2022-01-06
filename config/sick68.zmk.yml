@@ -1,8 +1,8 @@
 file_format: "1"
-id: naked60
-name: Naked60
+id: sick68
+name: Sick68
 type: shield
-url: https://salicylic-acid3.hatenablog.com/
+url: 
 requires: [pro_micro]
 features:
   - keys

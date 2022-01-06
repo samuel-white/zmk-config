@@ -1,9 +1,9 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if SHIELD_NAKED60
+if SHIELD_SICK68
 
 config ZMK_KEYBOARD_NAME
-    default "Naked60BMP"
+    default "Sick68"
 
 endif
