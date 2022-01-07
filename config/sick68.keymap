@@ -38,16 +38,16 @@
 
 // ----------------------------------------------     -----------------------------------------------------
 // |BT_CLR|  F1  |  F2 |  F3  |  F4 |  F5 |  F6 |     |  F7 |  F8 |  F9 | F10 | F11 | F12 |        |BT_CLR|
-// |       | BT-0 | BT-1| BT-2 |     |     |       |     |     |     |     |     |     |     |     | HOME |
-// |        |      |     |      |     |     |       |     |     |     |     |     |     |          | END  |
-// |         |      |     |     |      |     |       |     |     |     |     |     |         |     |      |
+// |       | BT-0 | BT-1| BT-2 |     |     |       |     | HOME | UP | END | DELETE|     |     |     |      |
+// |        |      |     |      |     |     |       |     | LEFT | DOWN |  IRIGHT   |     |     |          | HOME  |
+// |         |      |     |     |      |     |       |     |     |     |     |     |         |     | END |
 // |         |      |      |           |     |       |             |      |    |       |     |     |      |
 // -------------------------------------------       ------------------------------------------------------
 
         fn_layer {
             bindings = <
     &bt BT_CLR &kp F1       &kp F2       &kp F3       &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12 &trans &bt BT_CLR
-    &trans     &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &trans &trans        &trans &kp HOME &kp UP &kp END  &trans  &trans  &trans &trans &trans
+    &trans     &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &trans &trans        &trans &kp HOME &kp UP &kp END  &kp DELETE  &trans  &trans &trans &trans
     &trans     &trans       &trans       &trans       &trans &trans        &trans &kp LEFT &kp DOWN &kp RIGHT  &trans  &trans  &trans &kp HOME
     &trans     &trans       &trans       &trans       &trans &trans        &trans &trans &trans &trans  &trans  &trans  &trans &kp END
     &trans     &trans       &trans       &trans       &trans               &trans &trans &trans &trans  &trans
