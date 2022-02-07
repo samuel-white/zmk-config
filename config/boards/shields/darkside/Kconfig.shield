@@ -1,5 +1,8 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-config SHIELD_DARKSIDE
-    def_bool $(shields_list_contains,darkside)
+config SHIELD_DARKSIDE_LEFT
+    def_bool $(shields_list_contains,darkside_left)
+	
+config SHIELD_DARKSIDE_RIGHT
+    def_bool $(shields_list_contains,darkside_right)
