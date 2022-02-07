@@ -6,3 +6,6 @@ url:
 requires: [pro_micro]
 features:
   - keys
+siblings:
+  - darkside_left
+  - darkside_right
