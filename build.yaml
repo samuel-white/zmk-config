@@ -14,5 +14,5 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: [ "darkside_left", "darkside_right" ]
-    #shield: sick68
+    #shield: [ "darkside_left", "darkside_right" ]
+    shield: sick68
