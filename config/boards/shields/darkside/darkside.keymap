@@ -53,11 +53,11 @@
 
         fn_layer {
             bindings = <
-    &bt BT_CLR		&kp F1			&kp F2			&kp F3			&kp F4		&kp F5	&trans																		&kp trans	&kp F6		&kp N7			&kp F8			&kp F9		&kp F10		&hota C_NEXT C_VOLUME_UP
-    &trans			&bt BT_SEL 0 	&bt BT_SEL 1 	&bt BT_SEL 2	&trans		&trans	&trans																		&kp trans	&kp trans	&kp trans		&kp trans		&kp trans	&kp trans	&hota C_PREV C_VOLUME_DOWN
-    &trans			&trans			&trans			&trans			&trans		&trans	&trans																		&kp trans	&kp trans	&kp trans		&kp trans		&kp trans	&kp trans  	&kp HOME
-    &trans 			&trans			&trans			&trans			&trans		&trans         																					&kp trans	&kp trans		&kp trans		&kp trans	&kp trans  	&kp trans
-    &trans 			&trans 			&trans 			&HOME 			&END 																													&kp PG_UP  		&kp PG_DOWN 	&kp trans  	&kp trans  	&kp trans
+    &bt BT_CLR		&kp F1			&kp F2			&kp F3			&kp F4		&kp F5	&trans																		&trans		&kp F6		&kp N7			&kp F8			&kp F9		&kp F10		&hota C_NEXT C_VOLUME_UP
+    &trans			&bt BT_SEL 0 	&bt BT_SEL 1 	&bt BT_SEL 2	&trans		&trans	&trans																		&trans		&trans		&trans			&trans			&trans		&trans		&hota C_PREV C_VOLUME_DOWN
+    &trans			&trans			&trans			&trans			&trans		&trans	&trans																		&trans		&trans		&trans			&trans			&trans		&trans  	&kp HOME
+    &trans 			&trans			&trans			&trans			&trans		&trans         																					&trans		&trans			&trans			&trans		&trans  	&trans
+    &trans 			&trans 			&trans 			&kp HOME 			&kp END 																											&kp PG_UP  		&kp PG_DOWN 	&trans  	&trans  	&trans
 																								&trans														&trans
 																								&trans		&trans	&trans			&trans 		&trans		&trans
             >;
