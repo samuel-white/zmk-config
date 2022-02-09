@@ -59,7 +59,7 @@
     &trans			&kp HASH		&kp DOLLAR		&kp LPAR		&kp RPAR	&kp GRAVE	&kp PAUSE_BREAK																&kp INS		&trans		&kp LEFT		&kp DOWN		&kp RIGHT	&trans  	&trans
     &trans 			&kp PRCNT		&kp CARET		&kp LBKT		&kp RBKT	&kp TILDE      	   																					&trans		&trans			&trans			&trans		&trans  	&trans
     &trans 			&kp AMPS		&kp ASTRK		&kp HOME 		&kp END 																													&kp PG_UP  		&kp PG_DN 		&trans  	&trans  	&trans
-																									&trans														&trans
+																									&trans			 											&trans
 																									&trans		&trans	&trans			&trans 		&trans		&trans
             >;
         };
