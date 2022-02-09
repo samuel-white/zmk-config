@@ -47,7 +47,7 @@
     &kp LSHFT 		&kp Z			&kp X			&kp C			&kp V		&kp B 	        																									&kp N		&kp M			&kp COMMA			&kp DOT			&kp FSLH  		&kp RSHFT
     &kp LCTRL 		&kp LGUI 		&kp LALT 		&hota HOME LEFT	&hota END RIGHT 																															&hota PG_UP UP 	&hota PG_DN DOWN 	&mt RALT LBKT  	&hota RGUI RBKT &kp RCTRL
 																							&hota LGUI ESC																	&hota RGUI DEL
-																							&mt LCTRL SPACE	&mt LSHFT BSPC &mt LALT TAB		&mt LALT RET 	&mt LSHFT BSPC	&mt LCTRL SPACE
+																							&mt LCTRL SPACE	&hota LSHFT BSPC &mt LALT TAB		&mt LALT RET 	&hota LSHFT BSPC	&mt LCTRL SPACE
             >;
         };
 
