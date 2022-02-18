@@ -42,9 +42,9 @@
         default_layer {
             bindings = <
     &kp ESC   &kp N1   &kp N2   &kp N3    &kp N4 &kp N5 &kp N6 &kp N7    &kp N8   &kp N9    &kp N0    &kp MINUS &kp EQUAL &kp BSPC &kp GRAVE
-    &kp TAB   &kp Q    &hota LC(W) W    &kp E     &kp R  &hota LC(T) T  &hota LC(Y) Y     &kp U    &kp I     &kp O     &kp P     &kp LBKT  &kp RBKT &kp BSLH &kp DEL
-    &lt FN BSPC  &hota LC(A) A    &hota LC(S) S    &kp D     &kp F  &kp G         &kp H     &kp J    &kp K     &kp L     &kp SEMI  &kp SQT   &kp RET  &kp PG_UP
-    &kp LSHFT &hota LC(Z) Z    &hota LC(X) X    &hota LC(C) C     &hota LC(V) V  &kp B         &kp N     &kp M    &kp COMMA &kp DOT   &kp FSLH  &kp RSHFT &kp UP   &kp PG_DN
+    &kp TAB   &kp Q    &kp W    &kp E     &kp R  &kp T  &kp Y     &kp U    &kp I     &kp O     &kp P     &kp LBKT  &kp RBKT &kp BSLH &kp DEL
+    &lt FN BSPC  &kp A    &kp S    &kp D     &kp F  &kp G         &kp H     &kp J    &kp K     &kp L     &kp SEMI  &kp SQT   &kp RET  &kp PG_UP
+    &mt LSHFT RET &kp Z    &kp X    &kp C     &kp V  &kp B         &kp N     &kp M    &kp COMMA &kp DOT   &kp FSLH  &kp RSHFT &kp UP   &kp PG_DN
     &kp LCTRL &kp LGUI &kp LALT &kp SPACE &kp RALT &mo FN     &kp RCTRL &kp LEFT  &kp DOWN  &kp RIGHT
             >;
         };
@@ -90,9 +90,9 @@
             bindings = <
     &kp ESC   &kp N1   &kp N2   &kp N3    &kp N4 &kp N5 &kp N6 &kp N7    &kp N8   &kp N9    &kp N0    &kp MINUS &kp EQUAL &kp BSPC &kp GRAVE
     &kp TAB   &kp Q    &kp W    &kp E     &kp R  &kp T  &kp Y     &kp U    &kp I     &kp O     &kp P     &kp LBKT  &kp RBKT &kp BSLH &kp DEL
-    &to DEFAULT  &kp A    &kp S    &kp D     &kp F  &kp G         &kp H     &kp J    &kp K     &kp L     &kp SEMI  &kp SQT   &kp RET  &kp PG_UP
+    &none  &kp A    &kp S    &kp D     &kp F  &kp G         &kp H     &kp J    &kp K     &kp L     &kp SEMI  &kp SQT   &kp RET  &kp PG_UP
     &kp LSHFT &kp Z    &kp X    &kp C     &kp V  &kp B         &kp N     &kp M    &kp COMMA &kp DOT   &kp FSLH  &kp RSHFT &kp UP   &kp PG_DN
-    &kp LCTRL &none &kp LALT &kp SPACE &kp RALT &none     &kp RCTRL &kp LEFT  &kp DOWN  &kp RIGHT
+    &kp LCTRL &none &kp LALT &kp SPACE &kp RALT &to DEFAULT     &kp RCTRL &kp LEFT  &kp DOWN  &kp RIGHT
             >;
         };
 	};
