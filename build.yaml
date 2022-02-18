@@ -13,7 +13,9 @@
 #
 ---
 include:
-  - board: nice_nano_v2
-    shield: darkside_left
-  - board: nice_nano_v2
-    shield: darkside_right    
+  # - board: nice_nano_v2
+    # shield: darkside_left
+  # - board: nice_nano_v2
+    # shield: darkside_right
+    - board: nice_nano_v2
+      shield: sick68        
