@@ -68,7 +68,7 @@
     &trans     &trans       &trans       &trans       &trans               &trans &trans &kp HOME &trans  &kp END
             >;
 			
-			//sensor-bindings = <&inc_dec_kp C_PREV C_NEXT>;
+			// sensor-bindings = <&inc_dec_kp C_PREV C_NEXT>;
         };
 
 // ----------------------------------------------     -----------------------------------------------------

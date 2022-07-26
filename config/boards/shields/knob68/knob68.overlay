@@ -66,7 +66,7 @@ RC(4,0) RC(4,1) RC(4,2) RC(4,4) RC(4,8) RC(4,9) RC(4,10) RC(4,11) RC(4,12) RC(4,
         label = "LEFT_ENCODER";
         a-gpios = <&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         b-gpios = <&pro_micro 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        resolution = <4>;
+        resolution = <1>;
 		status = "okay";
     };
 		
