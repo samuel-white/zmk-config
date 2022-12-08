@@ -13,6 +13,8 @@
 #define FN   1
 #define NUMPAD   2
 
+#define HYP LS(LC(LA(LGUI)))
+
 
 / {
     behaviors {
