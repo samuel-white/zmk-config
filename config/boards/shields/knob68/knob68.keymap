@@ -51,7 +51,7 @@
 // Encoder: rotate = up/down arrows, press = (transparent)
 // ------------------------------------------------------------------------------------------------------------
 // |  `    | F1  | F2  | F3  | F4  | F5  | F6  | F7  | F8  | F9  | F10 | F11 | F12 |        || KNOB:
-// | NUMPAD | BT0 | BT1 | BT2 |     |     | DEL | DEL | UP  |BSPC |BSPC |     | INS | PRTSC |
+// | NUMPAD | BT0 | BT1 | BT2 |     |     |BSPC |BSPC | UP  | DEL | DEL |     | INS | PRTSC |
 // |         |     |     |     |     |     |HOME |LEFT |DOWN |RGHT | END |     |           ||          | NEXT |
 // |           |PAUSE|     |     |     |     |     |     |     |     |     |        |      || HOME     | PREV |
 // |       |      |      |                             |      |      |       |       HOME   |          | END  |
@@ -60,7 +60,7 @@
         fn_layer {
             bindings = <
     &kp GRAVE  &kp F1           &kp F2        &kp F3        &kp F4    &kp F5  &kp F6      &kp F7      &kp F8    &kp F9     &kp F10   &kp F11  &kp F12     &trans    &trans
-    &to NUMPAD &bt BT_SEL 0     &bt BT_SEL 1  &bt BT_SEL 2  &trans    &trans  &kp DELETE  &kp DELETE  &kp UP    &kp BSPC   &kp BSPC  &trans   &kp INSERT  &kp PRINTSCREEN
+    &to NUMPAD &bt BT_SEL 0     &bt BT_SEL 1  &bt BT_SEL 2  &trans    &trans  &kp BSPC    &kp BSPC    &kp UP    &kp DELETE &kp DELETE &trans  &kp INSERT  &kp PRINTSCREEN
     &trans     &trans           &trans        &trans        &trans    &trans  &kp HOME    &kp LEFT    &kp DOWN  &kp RIGHT  &kp END   &trans   &trans      &trans    &kp C_NEXT
     &trans     &kp PAUSE_BREAK  &trans        &trans        &trans    &trans  &trans      &trans      &trans    &trans     &trans    &trans   &trans      &kp HOME  &kp C_PREV
     &trans     &trans           &trans        &trans        &trans    &trans  &trans      &kp HOME    &trans    &kp END
