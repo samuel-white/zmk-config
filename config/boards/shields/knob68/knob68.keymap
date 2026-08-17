@@ -31,8 +31,8 @@
 
         // Leader key (urob/zmk-leader-key module): tap, then type a sequence.
         // RET = presses Enter.
-        //   E P   -> types personal email address
-        //   E E   -> types work email address
+        //   E E   -> types personal email address
+        //   E R   -> types work email address
         //   G S   -> git status RET
         //   G C   -> git commit -m "" with the cursor inside the quotes
         //   G P   -> git pull RET
@@ -46,8 +46,8 @@
         leader: leader {
             compatible = "zmk,behavior-leader-key";
             #binding-cells = <0>;
-            emailp   { sequence = <E P>; bindings = <&email_macro>; };
-            emailw   { sequence = <E E>; bindings = <&work_email_macro>; };
+            emailp   { sequence = <E E>; bindings = <&email_macro>; };
+            emailw   { sequence = <E R>; bindings = <&work_email_macro>; };
             gits     { sequence = <G S>; bindings = <&git_status_macro>; };
             gitc     { sequence = <G C>; bindings = <&git_commit_macro>; };
             gitp     { sequence = <G P>; bindings = <&git_pull_macro>; };
