@@ -5,6 +5,9 @@
       "WebFetch(domain:zmk.dev)"
     ],
     "deny": [],
-    "ask": []
+    "ask": [],
+    "additionalDirectories": [
+      "C:\\Development\\Git\\qmk-config"
+    ]
   }
 }

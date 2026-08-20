@@ -43,6 +43,8 @@
         //   A U   -> /auto RET
         //   T E   -> Win key, "terminal", Enter (opens Windows Terminal)
         //   1 1   -> sudo !! RET
+        //   /     -> Ctrl+/ (comment toggle; RCtrl itself is the leader)
+        //   RET   -> Ctrl+Enter
         leader: leader {
             compatible = "zmk,behavior-leader-key";
             #binding-cells = <0>;
@@ -58,6 +60,8 @@
             auto     { sequence = <A U>; bindings = <&auto_macro>; };
             terminal { sequence = <T E>; bindings = <&terminal_macro>; };
             sudobang { sequence = <N1 N1>; bindings = <&sudo_bang_macro>; };
+            comment  { sequence = <FSLH>;  bindings = <&kp LC(FSLH)>; };
+            ctlret   { sequence = <RET>;   bindings = <&kp LC(RET)>; };
         };
     };
 
